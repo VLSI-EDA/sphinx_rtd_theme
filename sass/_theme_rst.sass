@@ -291,16 +291,27 @@
   code.download
     background: inherit
     padding: inherit
+    font-weight: normal
     font-family: inherit
     font-size: inherit
     color: inherit
     border: inherit
     white-space: inherit
     span:first-child
+      -webkit-font-smoothing: subpixel-antialiased
       @extend .fa
       @extend .fa-download
       &:before
         margin-right: 4px
+  .guilabel
+    border: 1px solid lighten($guilabel-color, 25%)
+    background: lighten($guilabel-color, 50%)
+    font-size: 80%
+    font-weight: 700
+    border-radius: $base-line-height / 6
+    padding: $base-line-height / 10 $base-line-height / 4
+    margin: auto $base-line-height / 12
+
 
 // Mobile specific
 +media($mobile)
