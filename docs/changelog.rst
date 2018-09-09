@@ -3,8 +3,33 @@
 Changelog
 *********
 
-Master
+v0.4.1
 ======
+
+:Date: July 27, 2018
+
+
+New Features
+-------------
+
+Fixes
+-----
+
+* Line height adjustments for Liberation Mono (#656)
+
+
+Other Changes
+--------------
+
+* Add Sphinx as a dependency
+
+
+v0.4.0
+======
+
+This version made some changes to how JS and CSS were included
+when the theme is used on Read the Docs.
+
 
 New Features
 -------------
